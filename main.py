@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Teeting": "Loading..."}
+    return {"Teeting": "Loading... Change test"}
 
 
 #Creating a demo todo list
