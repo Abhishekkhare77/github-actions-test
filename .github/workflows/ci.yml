@@ -38,3 +38,7 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           docker compose up -d --build
+        port: 22
+        timeout: 60s
+        command_timeout: 15m
+        debug: true
